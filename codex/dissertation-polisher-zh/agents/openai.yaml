@@ -1,0 +1,7 @@
+interface:
+  display_name: "博士论文润色"
+  short_description: "审阅中文计算机科学博士学位论文并生成逐章修改报告"
+  default_prompt: "Use $dissertation-polisher-zh to 审阅这篇中文计算机科学博士学位论文，并按章节生成 Markdown 审阅报告：<文件路径或文本>。"
+
+policy:
+  allow_implicit_invocation: true
