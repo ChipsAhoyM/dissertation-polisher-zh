@@ -104,8 +104,10 @@ git clone https://github.com/ChipsAhoyM/dissertation-polisher-zh.git ~/.claude/s
 #### 方法一：在 Codex 中通过 `$skill-installer` 从 GitHub 子路径安装（推荐）
 
 ```text
-Use $skill-installer to install https://github.com/ChipsAhoyM/dissertation-polisher-zh/tree/main/codex/dissertation-polisher-zh
+Use $skill-installer to install https://github.com/ChipsAhoyM/dissertation-polisher-zh/tree/master/codex/dissertation-polisher-zh
 ```
+
+安装经验：实测该仓库当前默认分支是 `master` 而不是 `main`，如果 `skill-installer` 的默认 `auto/git` 模式报临时目录冲突，可改用 `--method download` 重试。
 
 安装后重启 Codex 以加载新 skill。
 
